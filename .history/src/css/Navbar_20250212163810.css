@@ -1,0 +1,23 @@
+.nav{
+    background-color: rgba(0, 0, 50, 0.5); /* Filtro más ligero */
+    backdrop-filter: blur(10px); /* Difumina el fondo */
+  }
+
+.navbar-link {
+    color: black; /* Color de texto azul */
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #0056b3; /* Color de texto cuando el enlace está en hover */
+}
+
+/* Cambiar el color de los iconos de las redes sociales */
+.social-icon {
+    color: #333; /* Color de los iconos */
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Color de los iconos cuando se pasa el mouse */
+}
